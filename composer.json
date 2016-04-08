@@ -1,0 +1,41 @@
+{
+  "name": "tentwofour/symfony-form-bridge",
+  "type": "library",
+  "description": "Symfony implementation of the tentwofour/sf2-form package",
+  "keywords": [
+    "ten24",
+    "tentwofour",
+    "form",
+    "symfony"
+  ],
+  "homepage": "https://github.com/tentwofour/SymfonyFormBridge",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Blair D. Patterson",
+      "homepage": "http://tentwentyfour.ca",
+      "email": "blair@tentwentyfour.ca"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "tentwofour/sf2-form": "1.1.*",
+    "symfony/dependency-injection": "~2.3|~3.0",
+    "symfony/config": "~2.3|~3.0",
+    "symfony/http-kernel": "~2.3|~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-0": {
+      "Ten24\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+services:
+    ten24_form.extension.help:
+        class: Ten24\Component\Form\Extension\Type\HelpTypeExtension
+        tags:
+            - { name: form.type_extension, alias: form }
