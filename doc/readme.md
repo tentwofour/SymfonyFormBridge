@@ -11,7 +11,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             ...
-            new Ten24\SymfonyFormBridgeBundle\Ten24SymfonyFormBridgeBundle()
+            new Ten24\Symfony\FormBridgeBundle\Ten24SymfonyFormBridgeBundle()
         )
         ...
     }

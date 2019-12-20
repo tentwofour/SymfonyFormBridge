@@ -1,0 +1,8 @@
+parameters:
+    ten24_form.type_extension.help.class: Ten24\Component\Form\Extension\Type\HelpTypeExtension
+
+services:
+    ten24_form.type_extension.help:
+        class: '%ten24_form.type_extension.help.class%'
+        tags:
+            - { name: form.type_extension, extended_type: Symfony\Component\Form\Extension\Core\Type\FormType }
